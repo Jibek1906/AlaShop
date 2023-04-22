@@ -329,10 +329,9 @@ label, a{ /*при наведении на стрелки или переклю�
     margin-bottom: 40px;
 }
 
-.lm {
+.participate {
     background-color: rgb(0, 0, 76);
     color: white;
-    width: 200px;
     font-size: 15px;
     height: 40px;
     border: solid 1px black;
