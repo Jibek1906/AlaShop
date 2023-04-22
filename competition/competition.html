@@ -7,19 +7,26 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Competition</title>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="competition.css">
     </head>
 
 <body>
+
+    <div class="form">
     <form action="https://formsubmit.co/zhibek.akylbekkyzy@alatoo.edu.kg" method="POST">
+        <div class="container">
+        <div class="title">Welcome</div>
+        <div class="subtitle">Fill the form to participate in the competition</div>
         <input type="text" class="name" name="name" placeholder="Name" required>
-        <input type="email" name="email" placeholder="Email" required>
-        <input type="text" name="group" placeholder="Group" required>
-        <textarea name="msg" placeholder="Message"></textarea>
-        <button type="submit" >Send form</button>
+        <input type="email" class="email" name="email" placeholder="Email" required>
+        <input type="text" class="group" name="group" placeholder="Group" required>
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="box">
+        <button type="submit" >Submit</button>
         <div class="status"></div>
+        </div>
     </form>
-    
+    </div>
     
 </body>
 
