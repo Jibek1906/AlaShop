@@ -13,13 +13,17 @@
 </head>
 <body>
     <section id="header">
-        <img src="img/back.jpg" width="50" alt="Button Image" onclick="goBack()">
-        <script>
-            function goBack() {
-              window.history.back();
-            }
-          </script>
-        <a href="" id="logo"><h1>AlaShop</h1></a>
+        <div class="logo">
+            <a href="" id="logo" ><h1>AlaShop</h1></a>
+            <img src="img/back.jpg" width="50" alt="Button Image" id="" onclick="goBack()"> 
+            
+            <script>
+                function goBack() {
+                window.history.back();
+                }
+            </script>
+        </div>
+        
         
         <div>
             <ul id="navbar">
@@ -38,13 +42,46 @@
      <a href="navbar/about.html"><h2>SIGN UP & SAVE 10%</h2></a>
     </div>
     
+    
+
     <div class="wrapper">
         <div class="img">
-            <img class="img-h" src="img/first.jpg" width="450" alt="">
+            <div class="all">
+                <input checked type="radio" name="respond" id="desktop">
+                    <article id="slider">
+                            <input checked type="radio" name="slider" id="switch1">
+                            <input type="radio" name="slider" id="switch2">
+                            <input type="radio" name="slider" id="switch3">
+        
+                        <div id="slides">
+                            <div id="overflow">
+                                <div class="image">
+                                    <article><img src="img/first.jpg" width="50"></article>
+                                    <article><img src="img/slider1.jpg"></article>
+                                    <article><img src="img/slider2.jpg"></article>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div id="controls">
+                            <label for="switch1"></label>
+                            <label for="switch2"></label>
+                            <label for="switch3"></label>
+                        </div>
+        
+                        <div id="active">
+                            <label for="switch1"></label>
+                            <label for="switch2"></label>
+                            <label for="switch3"></label>
+                        </div>
+                    </article>
+            </div>
+            
         </div>
+
         <div class="info">
             <h1>Basic Hoodie</h1>
-            <h3>Description:</h3>
+            <h3 class="dp">Description:</h3>
             <div class="info-d" >
                 Color:	Dark Grey
 Style:	Casual
@@ -59,7 +96,8 @@ Care Instructions:	Machine wash or professional dry clean
 Lined For Added Warmth:	Yes
 Sheer:	No
             </div>
-            <p>Price: 2500</p>
+            
+            <h3 class="dp">Price: 2500</h3>
             
             <div class="size">
                 <div class="size-block"><p class="s">Size:</p></div>
