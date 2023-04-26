@@ -330,13 +330,14 @@ label, a{ /*при наведении на стрелки или переклю�
 }
 
 .participate {
-    background-color: rgb(0, 0, 76);
-    color: white;
+    background-color: rgb(157, 155, 155);
+    color: rgb(0, 0, 0);
     border-radius: 30px;
-    border: solid 2px black;
+    border: none;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     font-size: 15px;
+    display: block;
 }
 
 #media {
@@ -399,4 +400,48 @@ label, a{ /*при наведении на стрелки или переклю�
 
 #img-topproducts {
     margin-bottom: -5px;
+}
+
+hr {
+    margin-top: 20px;
+}
+
+#id {
+    background-color: #777;
+}
+
+.section-p3 {
+    padding: 40px 80px;
+    background: url(background.png) no-repeat 0px 0px;
+    margin-left: 80px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 180px;
+    font-size: 25px;
+}
+
+.competition {
+    color: white;
+    margin-top: -10px;
+}
+
+.c {
+    display: flex;
+}
+
+.section-p4 {
+    background-color: rgb(157, 155, 155);
+    height: 180px;
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+    margin-right: 80px;
+    font-size: 15px;
+    justify-content: center;
+    text-align: center;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 25px;
 }

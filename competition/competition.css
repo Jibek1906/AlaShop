@@ -53,6 +53,7 @@ input {
     outline: 0;
     padding: 4px 20px 0;
     width: 100%;
+    color: black;
 }
 
 .name {
@@ -90,4 +91,8 @@ background-color: rgb(134, 134, 134);
   text-align: center;
   width: 100%;
   font-weight: 600;
+}
+
+button {
+    border: none;
 }
