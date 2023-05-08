@@ -77,11 +77,13 @@ h2 {
     color: black;
     padding-top: 7px;
     padding-bottom: 7px;
+    padding-left: 10px;
     background-color: gray;
 }
 
 .section-p1 {
-    padding: 40px 80px;
+    padding: 20px 80px;
+    padding-bottom: 30px;
 }
 
 #img-categories {
@@ -121,11 +123,11 @@ h2 {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 footer {
-    background-color: gray;
+    background-color: gray;;
 }
 
 .sub {
@@ -243,7 +245,7 @@ p {
 
 .info h3{
     font-size: 30px;
-    font-weight: 900;
+    font-weight: 600;
 }
 
 .info p{
@@ -297,7 +299,7 @@ p {
 }
 
 h3 {
-    font-weight: 20;
+    font-weight: 10;
 }
 
 .competition {
@@ -474,4 +476,29 @@ label, a{ /*при наведении на стрелки или переклю�
 
 hr {
     margin-top: 20px;
+}
+
+.section-p1 {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.col-c {
+    margin-top: 26px;
+}
+
+.col-h {
+    margin-top: 50px;
+}
+
+.col-info {
+    margin-top: 50px;
+}
+
+.col-links {
+    margin-top: 2px;
+}
+
+hr {
+    margin-top: 30px;
 }
