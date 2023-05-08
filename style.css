@@ -73,6 +73,7 @@ h2 {
 .categories {
     text-align: center;
     font-size: 25px;
+    margin-top: 50px;
 }
 
 .category {
@@ -90,7 +91,7 @@ h2 {
 
 #img-categories {
     width: 290px;
-    height: 250px;
+    height: 280px;
     width: 100%;
     margin-bottom: -5px;
 }
@@ -153,7 +154,7 @@ footer {
 h4 {
     margin-top: 5px;
     margin-left: 5px;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 h3 {
@@ -436,7 +437,7 @@ hr {
     background-color: rgb(157, 155, 155);
     height: 180px;
     margin-top: 20px;
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: bold;
     margin-right: 80px;
     font-size: 15px;
@@ -453,21 +454,22 @@ hr {
 }
 
 .col-c {
-    margin-top: 26px;
+    margin-top: 28px;
 }
 
 .col-h {
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 .col-info {
-    margin-top: 50px;
-}
-
-.col-links {
-    margin-top: 2px;
+    margin-top: 60px;
 }
 
 hr {
     margin-top: 30px;
 }
+
+p {
+    font-size: 18px;
+}
+

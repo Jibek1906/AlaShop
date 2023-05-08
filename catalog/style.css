@@ -158,7 +158,7 @@ footer {
 h4 {
     margin-top: 5px;
     margin-left: 5px;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 h3 {
@@ -484,19 +484,15 @@ hr {
 }
 
 .col-c {
-    margin-top: 26px;
+    margin-top: 28px;
 }
 
 .col-h {
-    margin-top: 50px;
+    margin-top: 58px;
 }
 
 .col-info {
-    margin-top: 50px;
-}
-
-.col-links {
-    margin-top: 2px;
+    margin-top: 58px;
 }
 
 hr {
